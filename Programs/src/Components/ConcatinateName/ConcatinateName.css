@@ -1,0 +1,30 @@
+.concatinate{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 10rem;
+    width: 10rem;
+    background-color: rgb(206, 204, 204);
+   
+}
+
+input{
+    border: 1px solid blue;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.submit{
+    width: 50px;
+    align-items: center;
+    margin-left: 2rem;
+    border: 1px solid green;
+}
+input::placeholder {
+    text-align:center;
+  }
+  

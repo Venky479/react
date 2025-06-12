@@ -5,6 +5,7 @@ import AutoCounter from './Components/AutoCounter/AutoCounter';
 import ConcatinateName from './Components/ConcatinateName/ConcatinateName';
 import Parent from './Components/UseCallback/Parent';
 import Fetch from './Components/FetchApi/Fetch';
+import InputFocus from './Components/UseRef/useRef';
 
 function App() {
   
@@ -14,7 +15,8 @@ function App() {
     {/* <AutoCounter/> */}
     {/* <ConcatinateName/> */}
     {/* <Parent/> // useCallback and React.memo */}
-    <Fetch/>
+    {/* <Fetch/> */}
+    <InputFocus/>
     </div>
   );
 }
